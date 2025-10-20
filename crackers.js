@@ -1,7 +1,7 @@
 let canvas = document.querySelector("canvas");
 let context = canvas.getContext("2d");
-canvas.width = innerWidth - 4;
-canvas.height = innerHeight - 4;
+canvas.width = innerWidth - 3;
+canvas.height = innerHeight - 3;
 
 let friction = 0.99;
 let gravity = 0.005;
@@ -78,3 +78,4 @@ function animate() {
 }
 
 animate();
+
